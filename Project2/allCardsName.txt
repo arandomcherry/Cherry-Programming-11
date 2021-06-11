@@ -1,0 +1,40 @@
+1 SSS - Kurisu Makise
+2 SSS - Komaeda Nagito
+3 SSS - L Lawliet
+4 SSS - Norman
+5 SSS - Angewomon
+6 SSS - Android 18
+7 SSS - Roddy
+8 SSS - Hitachiin Kaoru
+9 SSS - Palos
+10 SS - MooMoo-Corn
+11 SS - Fox
+12 SS - Pikachu
+13 SS - Froggy
+14 S - Kitten
+15 S - Melody
+16 S - Molang
+17 S - Panda
+18 S - Dolphin
+19 S - "Woof"
+20 S - DogeCoin
+21 A - Pudding
+22 A - Egg Chicken
+23 A - Cow
+24 A - Line Monkey
+25 A - Wang Wang
+26 A - Shy Panda
+27 A - SquidWard
+28 B - Rabbit
+29 B - Monkey
+30 B - Duck
+31 B - Pig
+32 B - Mouse
+33 B - Chicken
+34 C - Fire
+35 C - Feather
+36 C - Leaf
+37 C - Flower
+38 C - Dog Bone
+39 C - Fish
+40 C - Watermelon

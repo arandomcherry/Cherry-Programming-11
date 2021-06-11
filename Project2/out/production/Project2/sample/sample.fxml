@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TabPane prefHeight="393.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+         <tabs>
+            <Tab text="Create Tasks">
+              <content>
+                <AnchorPane fx:id="anchor2" minHeight="0.0" minWidth="0.0" prefHeight="336.0" prefWidth="615.0">
+                     <children>
+                        <VBox layoutX="2.0" layoutY="2.0" prefHeight="331.0" prefWidth="100.0" />
+                        <VBox alignment="CENTER" layoutX="359.0" layoutY="-1.0" prefHeight="250.0" prefWidth="167.0" spacing="20.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="230.0" prefWidth="167.0" spacing="15.0">
+                                 <children>
+                                    <Label text="Create New Task:" />
+                                    <TextField fx:id="txtTask" promptText="enter task" />
+                                    <Button mnemonicParsing="false" onAction="#addTask" text="ADD" />
+                                    <Label fx:id="lblAlert" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="102.0" layoutY="37.0" prefHeight="301.0" prefWidth="125.0" spacing="21.0">
+                           <children>
+                              <CheckBox fx:id="check1" disable="true" mnemonicParsing="false" text="Add New Task" />
+                              <CheckBox fx:id="check2" disable="true" mnemonicParsing="false" text="Add New Task" />
+                              <CheckBox fx:id="check3" disable="true" mnemonicParsing="false" text="Add New Task" />
+                              <CheckBox fx:id="check4" disable="true" mnemonicParsing="false" text="Add New Task" />
+                              <CheckBox fx:id="check5" disable="true" mnemonicParsing="false" text="Add New Task" />
+                              <CheckBox fx:id="check6" disable="true" mnemonicParsing="false" text="Add New Task" />
+                              <CheckBox fx:id="check7" disable="true" mnemonicParsing="false" text="Add New Task" />
+                           </children>
+                        </VBox>
+                        <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="70.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://cpng.pikpng.com/pngl/s/75-752662_best-deck-in-dragon-ball-super-card-game.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="21.0" layoutX="71.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="32.0" fitWidth="26.0" layoutX="69.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://www.vhv.rs/dpng/d/436-4364011_dragon-ball-z-dokkan-battle-wikia-transparent-dragon.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="32.0" fitWidth="25.0" layoutX="69.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://www.vhv.rs/dpng/d/13-131990_dragon-ball-4-png-transparent-png.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="69.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://www.clipartmax.com/png/small/208-2086164_dragon-ball-z-clipart-5-star-six-star-dragon-ball.pngck-in-dragon-ball-super-card-game.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="31.0" fitWidth="24.0" layoutX="70.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://th.bing.com/th/id/R0bf2bdae55199fad0f1f638ef5568ced?rik=9p47ctUVuNXhOg&amp;riu=http%3a%2f%2fimg.dxcdn.com%2fproductimages%2fsku_209107_1.jpg&amp;ehk=yIomN%2fZcPd7aeWi2hA9YSgGp8aBMrGm2bk5dEx1lSts%3d&amp;risl=&amp;pid=ImgRaw" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="70.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://th.bing.com/th/id/R026b0058e351299f8ef344add130d65e?rik=TCv7PjD1WEpddg&amp;riu=http%3a%2f%2fkarlmac.com%2fwp-content%2fuploads%2f2011%2f08%2f2-star-dragonball.png&amp;ehk=Y4aOrqmJsS8HqKs2FUsJqVomnF1FQOhoXQRd46cFarI%3d&amp;risl=&amp;pid=ImgRaw" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="66.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://www.pngitem.com/pimgs/m/84-847801_dragon-ball-png-photo-clip-art-for-winner.png" />
+                           </image>
+                        </ImageView>
+                        <ProgressBar fx:id="progressBar" disable="true" layoutX="267.0" layoutY="261.0" prefHeight="19.0" prefWidth="253.0" progress="0.0" />
+                        <ImageView fitHeight="59.0" fitWidth="63.0" layoutX="520.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="https://th.bing.com/th/id/Rbc14c6dd0cac3c46b4a9e71fdde52854?rik=8XBrZ1D0fVj8wA&amp;riu=http%3a%2f%2ffiles.gamebanana.com%2fimg%2fico%2fsprays%2f506b99f2cad4a.png&amp;ehk=kLkoY8fqXhNUhs2Zn5FXr%2bf8p22MBNlGdXLHYPfm7Oo%3d&amp;risl=&amp;pid=ImgRaw" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="44.0" fitWidth="75.0" layoutX="273.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="238.0" layoutY="194.0" mnemonicParsing="false" onAction="#saveProgress" text="Save" />
+                        <Button fx:id="btnRecover" layoutX="236.0" layoutY="87.0" mnemonicParsing="false" onAction="#recover" text="Recover" />
+                        <Button fx:id="btnNewRound" layoutX="236.0" layoutY="140.0" mnemonicParsing="false" onAction="#startNewRound" text="New Round" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Draw Card">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="335.0" prefWidth="600.0" spacing="20.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="335.0" prefWidth="315.0" spacing="30.0">
+                                 <children>
+                                    <VBox alignment="CENTER" prefHeight="331.0" prefWidth="243.0" spacing="15.0">
+                                       <children>
+                                          <Label fx:id="lblCardName">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Button fx:id="btnDrawCard" minWidth="53.0" mnemonicParsing="false" onMouseClicked="#drawNewCard" prefHeight="27.0" prefWidth="71.0" text="Recover" />
+                                          <HBox alignment="TOP_CENTER" prefHeight="55.0" prefWidth="200.0" spacing="6.0">
+                                             <children>
+                                                <VBox alignment="TOP_RIGHT" prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                                                   <children>
+                                                      <Label prefHeight="18.0" prefWidth="59.0" text="Card Left:" />
+                                                      <Label text="Duplicates:" />
+                                                   </children>
+                                                </VBox>
+                                                <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                                                   <children>
+                                                      <Label fx:id="lblCardNum" text="0" />
+                                                      <Label fx:id="lblDuplicates" text="0" />
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                          <Label text="*5 Duplicates = 1 New Card" />
+                                          <ImageView fx:id="imageView" fitHeight="154.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Collections ">
+              <content>
+                <AnchorPane fx:id="anchor" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <HBox layoutX="10.0" layoutY="3.0" prefHeight="316.0" prefWidth="580.0">
+                           <children>
+                              <ListView fx:id="listUserCards" onMouseClicked="#displayCards" prefHeight="316.0" prefWidth="259.0" />
+                              <VBox alignment="CENTER_LEFT" prefHeight="316.0" prefWidth="81.0" spacing="20.0">
+                                 <children>
+                                    <Label text="Load by:" />
+                                    <Button mnemonicParsing="false" onAction="#sortNum" text="Card No." />
+                                    <Button fx:id="btnSortRecent" mnemonicParsing="false" onAction="#loadRecentCards" text="Recent" />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER" prefHeight="316.0" prefWidth="229.0" spacing="20.0">
+                                 <children>
+                                    <Label fx:id="lblCName" />
+                                    <ImageView fx:id="imageCCard" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+</VBox>
